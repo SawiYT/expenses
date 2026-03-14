@@ -270,6 +270,7 @@
 	},
 	"profile": {
 		"title": "Profile",
+		"email": "Email",
 		"subtitle": "Manage your account settings",
 		"user_info": "User Information",
 		"username": "Username",

@@ -26,10 +26,11 @@ export default function Profile() {
 	if (!user) return <div className='p-8 text-center'>{t('common.not_logged_in')}</div>;
 
 	const profile = {
-		username: user.name || 'User',
-		id: 'user_28419x921',
-		createdAt: new Date().toISOString(),
-		isAdmin: true,
+		username: user.name,
+		email: user.email,
+		id: user.id,
+		createdAt: user.createdAt,
+		isAdmin: user.isAdmin,
 	};
 
 	return (
@@ -69,10 +70,16 @@ export default function Profile() {
 							<span className='font-medium'>{profile.username}</span>
 						</div>
 
+						<div className='flex items-center gap-2'>
+							<Icon icon='solar:archive-up-minimlistic-bold' width={16} className='text-muted-foreground select-none' />
+							<span className='text-muted-foreground'>{t('profile.email')}:</span>
+							<span className='font-medium'>{profile.email}</span>
+						</div>
+
 						<div
 							className='flex items-center gap-2 group cursor-pointer hover:text-primary transition-colors'
 							onClick={() => handleCopyId(profile.id)}>
-							<Icon icon='solar:fingerprint-bold' width={16} className='text-muted-foreground select-none' />
+							<Icon icon='solar:user-id-bold-duotone' width={16} className='text-muted-foreground select-none' />
 							<span className='text-muted-foreground'>{t('profile.user_id')}:</span>
 							<span className='font-mono text-xs bg-muted p-1 rounded group-hover:bg-primary/10 transition-colors'>
 								{profile.id}

@@ -270,6 +270,7 @@
 	},
 	"profile": {
 		"title": "Profil",
+		"email": "Email",
 		"subtitle": "Zarz\u0105dzaj ustawieniami konta",
 		"user_info": "Informacje o u\u017cytkowniku",
 		"username": "Nazwa u\u017cytkownika",
