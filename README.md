@@ -29,3 +29,4 @@ You can find all current staff members in the Admin section, complete with their
 
 ### Is it mobile-friendly?
 Absolutely. The layout adapts seamlessly to all screen sizes for a smooth experience on any device.
+# expenses
