@@ -1,10 +1,11 @@
 'use client';
 
-import Login from '@/components/Login/Login';
+import Profile from '@/components/Profile/Profile';
+
 export default function Home() {
 	return (
 		<div className=' overflow-hidden'>
-				<Login />
+			<Profile />
 		</div>
 	);
 }

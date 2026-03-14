@@ -1,32 +1,4 @@
 {
 	"host": "https://api.valeryr.ovh/neska",
-	"name": "Neska",
-	"scenes": [
-		{
-			"header": "Czas, który spędziliśmy razem",
-			"content": [
-				"{years} lat",
-				"{months} miesięcy",
-				"{days} dni",
-				"{hours} godzin",
-				"{minutes} minut",
-				"{seconds} sekund"
-			]
-		},
-		{
-			"header": "Nasz związek od 8 września",
-			"content": [
-				"{r_years} lat",
-				"{r_months} miesięcy",
-				"{r_days} dni",
-				"{r_hours} godzin",
-				"{r_minutes} minut",
-				"{r_seconds} sekund"
-			]
-		},
-		{
-			"header": "Neska <3",
-			"content": ["Jesteś najlepsza."]
-		}
-	]
+	"name": "Expenses"
 }
