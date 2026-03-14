@@ -13,9 +13,7 @@ export interface ProvidersProps {
 	themeProps?: ThemeProviderProps;
 }
 
-export function Providers({ children, themeProps }: ProvidersProps) {
-	const router = useRouter();
-
+export function Providers({ children }: ProvidersProps) {
 	return (
 		<ThemeProvider attribute='class' defaultTheme='system' enableSystem disableTransitionOnChange>
 			<SessionProvider>

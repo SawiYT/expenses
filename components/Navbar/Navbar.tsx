@@ -1,6 +1,6 @@
 'use client';
 
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import config from '../../config/config.json';
 import { ThemeButton } from '../ui/theme-button';
 import { Icon } from '@iconify/react';
